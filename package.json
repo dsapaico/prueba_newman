@@ -1,0 +1,23 @@
+{
+  "name": "prueba_newman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run https://api.getpostman.com/collections/1689162-c22ca50e-3ada-4d13-b66f-e6750a392895?apikey=7accf81aecca4927a7981bd39f59915b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsapaico/prueba_newman.git"
+  },
+  "keywords": [],
+  "author": "Deisy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsapaico/prueba_newman/issues"
+  },
+  "homepage": "https://github.com/dsapaico/prueba_newman#readme",
+  "dependencies": {
+    "newman": "4.4.1"
+  }
+}
